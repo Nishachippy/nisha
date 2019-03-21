@@ -1,0 +1,8 @@
+#!/bin/bash
+echo $# 
+if [ $# -lt 2 ]
+then
+echo "not correct"
+else
+echo "corrct"
+fi
